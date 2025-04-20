@@ -172,3 +172,9 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Dados de partidas (evita subir CSVs de jogos)
+data/jogos/
+*.csv
+!players_meta.csv
+
